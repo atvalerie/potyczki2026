@@ -8,6 +8,24 @@
       }
       body {
         background-color: palevioletred;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      p {
+        animation: spin 2s linear infinite;
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
       }
     </style>
   </head>
