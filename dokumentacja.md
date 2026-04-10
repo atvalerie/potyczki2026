@@ -13,4 +13,32 @@ Został utworzony nowy namespace `krzak-pol-web`
 
 Oraz deployment z obrazem `nginx:alpine` i dwoma replikami z labelem "app": "krzak-nginx"
 
-![Nagranie](misja1/3.webm)
+todo fix nagranie to image
+![Nagranie](misja1/3.mp4)
+
+Stworzony został serwis dla klastra
+![Create](misja1/4.png)
+
+![Cluster IP](misja1/5.png)
+
+![Service Ports](misja1/6.png)
+
+![Labels](misja1/7.png)
+
+Stworzony został ingress
+![Ingress](misja1/8.png)
+
+http://krzakpol.193.187.69.224.nip.io/
+
+
+
+### Misja 3:
+Pierwszy błąd to zła nazwa zdjęcia kontenera (httpd a nie httpdd)
+![Nazwa](misja3/1.png)
+
+Zły label (ksiegowosc-app a nie ksiegowosc-backend)
+![Label](misja3/2.png)
+
+Port ustawiony na 80 (czyli na ten na który httpd słucha)
+![Port](misja3/3.png)
+
