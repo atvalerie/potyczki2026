@@ -42,3 +42,24 @@ Zły label (ksiegowosc-app a nie ksiegowosc-backend)
 Port ustawiony na 80 (czyli na ten na który httpd słucha)
 ![Port](misja3/3.png)
 
+
+
+
+### Misja 5:
+
+Liczba replik krzak-pol-web (nginx) została zwiększona do 5
+![Repliki](misja5/1.png)
+
+Ustawiono zasoby na 128 Mi RAMu oraz 150mCPU
+![Resources](misja5/2.png)
+
+
+
+## Część 2: Prezes wchodzi na wyższe obroty
+
+### Misja 6:
+
+
+
+### Misja 7:
+

@@ -5,3 +5,7 @@
 2. Dodałem 2 grupy w nv:
  - `krzak-pol-web` - `namespace=krzak-pol-web`
  - `ksiegowosc-prod` - `namespace=ksiegowosc-prod`
+
+i finalnie dodałem i zapplyowałem network rule'a:
+
+![3](3.png)
